@@ -7,10 +7,10 @@ This repository was created to organize my COMP 585 assignments. I am learning h
 ## Contents
 
 
-### Assignment 1: Button Time &nbsp;&nbsp;:ballot_box_with_check:
+### Assignment 1: Button Time > 09/13/2021 &nbsp;&nbsp;:ballot_box_with_check:
 This application explores basic button functionality. It displays four buttons ‘1’, ‘2’, ‘3’ and ‘4’ and a label at the bottom. The label changes according to the component interaction.
 
-### Assignment 2: Calculator GUI 
+### Assignment 2: Calculator GUI > 09/19/2021
 This is an exercise that demonstrates how to create a simple GUI that uses a non-default layout manager and explores how to use a simple state machine to keep track of buttons pushed.
 
 ### Assignment 3: Threads
