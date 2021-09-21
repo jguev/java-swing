@@ -42,7 +42,7 @@ public class CalculatorGUI implements ActionListener {
         userInput.setFont(new Font("Comic Sans MS", Font.PLAIN, 30));
 
         buttonPanel = new JPanel();
-        Color bkg = new Color(41, 41, 42, 255);
+        Color bkg = new Color(214, 243, 243, 255);
         buttonPanel.setBackground(bkg);
 
         buttonPanel.setLayout(new GridLayout(5, 4));
@@ -86,7 +86,7 @@ public class CalculatorGUI implements ActionListener {
         buttonPanel.add(multButton);
 
         // ` 0 ` /
-        //addButton(buttonPanel, " ");
+        addButton(buttonPanel, " ");
 
         addButton(buttonPanel, "0");
         addButton(buttonPanel, " ");
@@ -99,6 +99,7 @@ public class CalculatorGUI implements ActionListener {
         buttonPanel.add(divButton);
 
         // this equal button shouldn't visually exist on the GUI, only here for testing purposes
+
         JButton equalsButton = new JButton("=");
         equalsButton.setActionCommand("=");
         equalsButton.addActionListener(new ActionListener() {
@@ -135,10 +136,6 @@ public class CalculatorGUI implements ActionListener {
         b.setActionCommand(name);
         b.addActionListener(this);
         parent.add(b);
-    }
-
-    private void repaintFont() {
-        userInput.setFont(userInput.getFont().deriveFont(Font.PLAIN));
     }
 
     @Override
