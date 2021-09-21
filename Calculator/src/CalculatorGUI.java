@@ -10,16 +10,13 @@
 // 7 8 9 *
 // ` 0 ` /
 
+import java.awt.*;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
-import java.awt.EventQueue;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
 import javax.swing.JButton;
-import java.awt.Container;
-import java.awt.GridLayout;
-import java.awt.BorderLayout;
 
 public class CalculatorGUI implements ActionListener {
 
@@ -34,7 +31,7 @@ public class CalculatorGUI implements ActionListener {
         guiFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         guiFrame.setTitle("Swing Calculator");
-        guiFrame.setSize(200, 300);
+        guiFrame.setSize(270, 350);
         guiFrame.setLocationRelativeTo(null);
 
         // Calculator Display
@@ -42,14 +39,16 @@ public class CalculatorGUI implements ActionListener {
         userInput.setHorizontalAlignment(JTextField.RIGHT);
         userInput.setEditable(false);
         guiFrame.add(userInput, BorderLayout.NORTH);
+        userInput.setFont(new Font("Comic Sans MS", Font.PLAIN, 30));
 
         buttonPanel = new JPanel();
+        Color bkg = new Color(41, 41, 42, 255);
+        buttonPanel.setBackground(bkg);
 
         buttonPanel.setLayout(new GridLayout(5, 4));
         guiFrame.add(buttonPanel, BorderLayout.CENTER);
 
         // Will add a for loop later, manually did it temporarily
-
         // 1 2 3 +
         addButton(buttonPanel, "1");
         addButton(buttonPanel, "2");
@@ -87,7 +86,8 @@ public class CalculatorGUI implements ActionListener {
         buttonPanel.add(multButton);
 
         // ` 0 ` /
-        addButton(buttonPanel, " ");
+        //addButton(buttonPanel, " ");
+
         addButton(buttonPanel, "0");
         addButton(buttonPanel, " ");
 
@@ -135,6 +135,10 @@ public class CalculatorGUI implements ActionListener {
         b.setActionCommand(name);
         b.addActionListener(this);
         parent.add(b);
+    }
+
+    private void repaintFont() {
+        userInput.setFont(userInput.getFont().deriveFont(Font.PLAIN));
     }
 
     @Override
