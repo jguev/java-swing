@@ -13,5 +13,9 @@ This application explores basic button functionality. It displays four buttons â
 ### Assignment 2: Calculator GUI > 09/20/2021 &nbsp;&nbsp;:ballot_box_with_check:
 This is an exercise that demonstrates how to create a simple GUI that uses a non-default layout manager and explores how to use a simple state machine to keep track of buttons pushed.
 
-### Assignment 3: Threads
+### Assignment 3: Threads > 09/27/2021 &nbsp;&nbsp;:ballot_box_with_check:
 Fix the mistake in the prewritten code.
+
+----------------------------------------------------------------------------------------
+
+### Group Project
