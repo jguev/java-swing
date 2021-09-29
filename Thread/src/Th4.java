@@ -83,18 +83,3 @@ public class Th4 {
 //  Thread-1: after t1 sleep, t1 = 6000
 //  Thread-1: notifying...
 //  Thread-1: after wait/notify
-
-// After fixing basic syntax I found semantic errors. If t1 enters sleep, t2 should automatically
-// run through the next instruction first. BUT that's not happening. Instead, t1 still processes first
-// and enters the else statement first. It bypasses the fact that it's w parameter is true ...
-// If the sleep works properly shouldn't Thread 1 (t2) finish before Thread 0 (t1)?
-
-//        t1 = new DemoThread(3000,1000,true);
-//        t2 = new DemoThread(6000,8000,false);
-// t1 finished first, t2 finished second
-
-//        t1 = new DemoThread(9000,1000,true);
-//        t2 = new DemoThread(6000,8000,false);
-// t2 finished first, t1 finished second
-
-// What is the point of t2?
