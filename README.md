@@ -16,6 +16,9 @@ This is an exercise that demonstrates how to create a simple GUI that uses a non
 ### Assignment 3: Threads > 09/27/2021 &nbsp;&nbsp;:ballot_box_with_check:
 Fix the mistake in the prewritten code.
 
+### Assignment 4: PhoneApp > 10/04/2021 (In Class) &nbsp;&nbsp;:ballot_box_with_check:
+This application simulates a phone call - prints numbers consecutively in textfield, clears, starts calls and ends calls. 
+
 ----------------------------------------------------------------------------------------
 
 ### Group Project
