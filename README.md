@@ -21,4 +21,5 @@ This application simulates a phone call - prints numbers consecutively in textfi
 
 ----------------------------------------------------------------------------------------
 
-### Group Project
+### Group Project 1: Playing Card Manager 10/27/2021
+This project will host a standard 52-card deck, a display area limited to 5 cards and a combination of buttons and boxes to select the suit and numbers. The user will choose the 5 cards of their choice through the menu display and manipulate their position within the display area with their mouse.
