@@ -1,8 +1,17 @@
 ![swing-banner](https://user-images.githubusercontent.com/26126449/133371879-0a9493a9-dc9b-4175-be9c-45554666f0b8.png)
-
 ## Purpose
 
 This repository was created to organize my COMP 585 assignments. I am learning how to design graphic user interfaces with Java and the extremely outdated Swing toolkit. My professor loves swing, what can I say.
+
+## Prerequisites
+
+:arrow_forward: Java version: "9.0.4"
+
+:arrow_forward: Java(TM) SE Runtime Environment: (build 9.0.4+11)
+
+:arrow_forward: Java HotSpot(TM) 64-Bit Server VM: (build 9.0.4+11, mixed mode)
+
+:arrow_forward: IDE: IntelliJ IDEA
 
 ## Contents
 
@@ -18,6 +27,9 @@ Fix the mistake in the prewritten code.
 
 ### Assignment 4: PhoneApp > 10/04/2021 (In Class) &nbsp;&nbsp;:ballot_box_with_check:
 This application simulates a phone call - prints numbers consecutively in textfield, clears, starts calls and ends calls. 
+
+### Assignment 5: Menu > 10/11/2021 (In Class) &nbsp;&nbsp;:ballot_box_with_check:
+This program explores JMenuBar and builds a simple drop down menu with 3 options: "New", "Open", "Save". Every option has a corresponding dialog box confirming the selection.
 
 ----------------------------------------------------------------------------------------
 
