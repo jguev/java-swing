@@ -31,6 +31,9 @@ This application simulates a phone call - prints numbers consecutively in textfi
 ### Assignment 5: Menu > 10/11/2021 (In Class) &nbsp;&nbsp;:ballot_box_with_check:
 This program explores JMenuBar and builds a simple drop down menu with 3 options: "New", "Open", "Save". Every option has a corresponding dialog box confirming the selection.
 
+### Assignment 6: GridPane > 11/01/2021 (In Class) &nbsp;&nbsp;:ballot_box_with_check: 
+This program uses JavaFX GUI to create a GridPane of Labels with eight rows and nine columns. The text of each Label will include the *sum* of the row number and the column number.
+
 ----------------------------------------------------------------------------------------
 
 ### Group Project 1: Playing Card Manager 10/25/2021 &nbsp;&nbsp;:ballot_box_with_check:
