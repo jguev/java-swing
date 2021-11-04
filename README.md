@@ -36,8 +36,8 @@ This program uses JavaFX GUI to create a GridPane of Labels with eight rows and 
 
 ----------------------------------------------------------------------------------------
 
-### Group Project 1: Playing Card Manager 10/25/2021 &nbsp;&nbsp;:ballot_box_with_check:
+### Project 1 (Group): Playing Card Manager 10/25/2021 &nbsp;&nbsp;:ballot_box_with_check:
 This project will host a standard 52-card deck, a display area limited to 5 cards and a combination of buttons and boxes to select the suit and numbers. The user will choose the 5 cards of their choice through the menu display and manipulate their position within the display area with their mouse.
 
-### Project 2: Draw/Paint Exercise 
+### Project 2 (Individual): Draw/Paint Exercise 
 Create a drawing program using JPanel and MouseMotion listeners.
